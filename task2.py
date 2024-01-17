@@ -24,7 +24,6 @@ def binary_search(arr, x):
  
         # інакше x присутній на позиції і повертаємо його
         else:
-            is_exact_match = True  # Встановлюємо прапорець, якщо знайдено точний збіг
             return mid, iterations
  
     return mid, iterations
